@@ -1,0 +1,31 @@
+.todo-list {
+  /* padding: 20px; */
+  left: 50%;
+  right: 50%;
+  /* max-width: 90%; */
+}
+.li {
+  margin: 5px;
+  width: fit-content;
+  border: 1px solid black;
+  display: flex;
+  padding: 20px;
+  border-left: 2px solid rgba(60, 223, 60, 0.518);
+  justify-content: space-between;
+}
+.delete {
+  /* float: right; */
+  background: #f70000;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 4px;
+  cursor: pointer;
+}
+.cross {
+  /* float: right; */
+  background: #f70000;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 4px;
+  cursor: pointer;
+}
